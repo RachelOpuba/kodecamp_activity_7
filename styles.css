@@ -581,6 +581,7 @@ a{
         letter-spacing: 2px;
     }
 
+
     .baner-img{
         padding-right: 0;
     }
@@ -625,7 +626,7 @@ a{
     }
 
     .painting, .electrical, .repair{
-        padding-top: 2rem;
+        padding-top: 0;
     }
 
 
@@ -671,6 +672,10 @@ a{
     .quality-sec-text p{
         font-size: 1.3rem;
         padding-bottom: 1,5rem;
+    }
+
+    .red-line{
+        width: 90%;
     }
 }
 
@@ -819,7 +824,7 @@ a{
     }
 
     .quality-sec-wraper{
-        padding-left: 3rem;
+        padding-left: 1.8rem;
     }
 
     .to-do{
