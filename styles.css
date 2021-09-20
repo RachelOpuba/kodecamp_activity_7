@@ -1,0 +1,884 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+.page-container{
+    margin: 0 auto;
+    border:3px solid red ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    width: 100%;
+}
+
+.logo img {
+    height: 32px;
+} 
+
+.hamburger{
+    height: 3.5px;
+    width: 26px;
+    background-color: rgb(56, 54, 54);
+    display: block;
+    margin-bottom: 6px;
+}
+
+
+.menu:hover .hamburger{
+    background-color: rgb(250, 123, 123);
+}
+    
+    
+.baner{
+    background-image: url(img/hero-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 6rem;
+    padding-top: 4rem;
+    padding-left: 2rem;
+    width: 100%;
+}
+
+.baner-text{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-left: 4rem;
+    padding-top: 14.5rem;
+    flex-direction: column;
+}
+
+.services{
+    display: block;
+    font-size: 6.5rem;
+    font-weight: 900;
+    letter-spacing: 4px;   
+}
+
+h1{
+   text-transform: uppercase; 
+   font-weight: 300;
+   font-size: 3.5rem;
+   color:#fff;
+   position: relative;
+   letter-spacing: 4px;
+}
+
+.white-line{
+    width: 110%;
+    height: 12px;
+    background-color: #fff;
+}
+/*
+h1::after{
+    content: '';
+    position: absolute;
+    width: 110%;
+    height: 12px;
+    background-color: #fff;
+    
+}*/
+
+.baner-img{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4rem;
+    padding-right: 1rem;
+    color: white;
+}
+
+.baner-img img{
+    height: 80px;
+    fill: currentColor;
+    color: white;
+}
+
+.baner-img p{
+    text-transform: uppercase;
+    padding-top: 1rem;
+    letter-spacing: .2rem;
+}
+
+.service-section{
+    background-color: #ecf0f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 10rem;
+    padding-top: 10rem;
+}
+
+.service-section h6{
+    color:grey;
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+.service-section h5{
+    font-size: 3rem;
+    padding-top: 2rem;
+}
+
+.service-section p{
+    font-size: 1.3rem;
+    font-weight: 300;
+    width: 65%;
+    margin: 0 auto;
+    line-height: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn{
+    background-color: rgb(224, 41, 41);
+    padding: 1rem 2.5rem;
+    border-radius: 3px;
+    border: none;
+}
+
+.btn:hover{
+    background-color: rgb(180, 33, 33);
+}
+
+.sec-80{
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+}
+
+.sec-80-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding-top: 3rem;
+
+
+}
+
+.left-content, .quality-sec-img{
+    width: 50%;
+    margin-right: 2rem;
+}
+
+.left-text{
+    font-size: 1.1rem;
+    line-height:25px ;
+    padding: 4rem;
+    font-weight: 300;
+}
+
+.right-content{
+    width: 50%;
+    height: 100%;
+    padding-top: 3rem;
+}
+
+.left-img, .right-img {
+    height: 370px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.left-img{ 
+    background-image: url('img/billionphotos1882993.jpg');
+}
+
+.right-img{
+    background-image: url('img/billionphotos1883011.jpg'); 
+}
+
+.right-text h5{
+    font-size: 2.5rem;
+}
+
+.phon-num{
+    color: rgb(230, 30, 30);
+    font-size: 2rem; 
+    padding-bottom: 3rem;
+    padding-top: 1rem;
+}
+
+
+
+.grey-bk-color{
+    background-color: rgb(218, 216, 216);
+    height: auto;
+    padding-bottom: 0;
+    padding-top: 0;
+    height: 670px;
+}
+
+.quality-sec-img {
+    background-image: url('img/billionphotos1079319min.png');
+    height: 100%;
+    width: 50%;
+    background-position: 100% 100% 100% 0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+    
+.quality-sec-text{
+    width: 50%;
+}
+
+.quality-sec-text h2{
+    font-size: 4rem;
+    font-weight: 900;
+    letter-spacing: 3px; 
+    color:#1b39ca;
+    padding-bottom: 1.8rem;
+
+}
+
+.quality{
+    font-size: 5rem;
+    font-weight: 900;
+    letter-spacing: 3px;  
+}
+
+.red-line{
+    width: 110%;
+    height: 12px;
+    background-color: rgb(224, 41, 41); 
+}
+
+/*
+.quality::after{
+    content: '';
+    position: absolute;
+    width: 110%;
+    height: 10px;
+    background-color: rgb(224, 41, 41);
+    margin-top: 7.5rem;
+}*/
+
+.quality-sec-text p{
+    font-size: 1.2rem;
+    line-height: 35px;
+    padding-bottom: 1.5rem;
+    padding-top: 1.8rem;
+    font-weight: 400;
+}
+
+.quality-sec-wraper{
+    padding-bottom: 0; 
+}
+
+.our-serv-sec{
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+}
+
+.our-serv-sec p{
+    font-size: 1.2rem;
+    padding: 1.5rem;
+    padding-left: 0;
+    line-height: 30px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.our-serv-sec h3{
+    font-size: 3rem;
+    letter-spacing: 3px;
+    padding-bottom: 3rem;
+}
+
+.our-serv-sec h4{
+    font-size: 1.5rem;
+    padding-top: 1.2rem;
+}
+
+
+.service-list{
+    display: flex;
+}
+
+.tools{
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    background-color: rgb(207, 28, 28);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tools img{
+    height: 50px;
+}
+
+.about{
+    width: 100%;
+}
+
+
+.about-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about{
+    background-color: #1a4ea1;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.about-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    flex-direction: column;
+    color: white;
+    width: 50%;
+}
+
+.about-text-container{
+    margin-left: 8rem;
+}
+
+.about-text h6{
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.about-text p{
+    font-size: 5.5rem;
+}
+
+.serv-text{
+    font-weight: 900;
+    display: block;
+    margin-top: -10px;
+}
+
+.about-galery{
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+    width: 50%;
+    padding: 3rem; 
+}
+
+.container{
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 3.5rem;
+    width: 100%;
+}
+
+.gal-coll-one, .gal-coll-two{
+    display: flex;
+}
+
+.gal-coll-one{
+    margin-bottom: 2rem;
+}
+
+
+.gal-img{
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-grow: 1;
+    margin-left: 2rem;
+}
+
+.img-one{
+    background-image: url('img/frg.jpg');
+}
+
+.img-two{
+    background-image: url('img/rg.jpg');
+}
+
+.img-three{
+    background-image: url('img/billionphotos1882993.jpg');
+}
+
+.img-four{
+    background-image: url('img/billionphotos1882951.jpg');
+}
+
+.to-do{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5rem;
+}
+
+.to-do h6{
+    font-size: 2.2rem;
+}
+
+.to-do p{
+    font-size: 1.9rem;
+    font-weight: 100;
+    line-height: 2.8rem;
+    padding: 2rem;
+}
+
+.professional{
+    display: block;
+}
+
+.call-us-btn{
+    background-color: transparent;
+    border: 1px solid grey;
+    margin-left: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.call-us-btn a{
+    color: rgb(99, 97, 97);
+}
+
+.call-us-btn:hover{
+    background-color: transparent;
+}
+
+
+
+
+
+
+@media (max-width: 1225px){
+    .quality-sec-text h2{
+        font-size: 3rem;
+        padding-bottom: 0;
+    }
+
+    .quality-sec-text p{
+        padding-top: 3rem;
+    }
+
+}
+
+@media (max-width:1100px){
+     .baner-text h1 {
+        font-size: 3rem;
+    }
+
+    .services{
+        font-size: 5rem;
+    }
+
+    .grey-bk-color{
+        height: 550px;
+    }
+
+    .about-sec{
+        flex-direction: column;
+    }
+
+    .about-text, .about-galery{
+        width: 100%;
+    }
+
+    .serv-text{
+        display: inline;
+        margin-top: -10px;
+    }
+
+    .about-text{
+        padding: 0;
+        align-items: flex-start;
+        padding-left: 5rem;
+    }
+
+    .about-text p{
+        font-size: 4rem;
+    }
+
+    .about-galery{
+        padding: 3rem 1rem;
+    }
+
+    .about-text-container{
+        margin-left: 0;
+    }
+
+    .gal-img{
+        height: 300px;
+    }
+
+}
+
+
+@media (max-width:905px){
+    .baner-text{
+        width: 60%;
+    }
+    
+    .left-content{
+        width: 100%;
+        margin-right: 0;
+    }
+    
+    .right-content{
+        width: 100%;
+        padding-bottom: 3rem;
+    }
+
+    .grey-bk-color{
+        height: 500px;
+    }
+
+    .left-text{
+        padding-right: 0;
+    }
+
+    .sec-80-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width:800px){
+    .baner-text h1 {
+        font-size: 2.2rem;
+    }
+
+    .services{
+        font-size: 4.5rem;
+        letter-spacing: 2px;
+    }
+
+    .baner-img{
+        padding-right: 0;
+    }
+
+    .baner-img p{
+        letter-spacing: 0px;
+    }
+
+    .baner-img img{
+        height: 70px;
+}
+    .left-text{
+        padding-bottom: 2rem;
+    }
+
+    .grey-bk-color{
+        height: 450px;
+    }
+
+    .quality-sec-text p{
+        font-size: 1rem;
+    }
+
+    .quality{
+        font-size: 3rem;
+    }
+
+    .quality-sec-text{
+        padding-bottom: 1rem;
+    }
+
+    .our-serv-sec {
+        width: 100%;
+        padding: 2rem;
+        padding-left: 3rem;
+        padding-top: 3rem;
+    } 
+
+    .our-serv-sec h3{
+        letter-spacing: 0;
+        padding-bottom: 1rem;
+    }
+
+    .painting, .electrical, .repair{
+        padding-top: 2rem;
+    }
+
+
+    .our-serv-sec p{
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+        padding-right: 0;
+    }
+
+    .sec-80-content{
+        width: 100%;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .to-do h6{
+        font-size: 2rem;
+    }
+    
+    .to-do p{
+        font-size: 1.5rem;
+    }
+
+    .professional{
+        display: inline;
+    }
+
+    .grey-bk-color{
+        height:     1300px ;
+    }
+
+    .quality-sec-img{
+        width: 80%
+    }
+
+    .quality-sec-text{
+        width: 100%;
+        padding-top: 6rem;
+        padding-bottom: 2rem;
+        padding-left: 2rem;
+    }
+
+    .quality-sec-text p{
+        font-size: 1.3rem;
+        padding-bottom: 1,5rem;
+    }
+}
+
+
+@media (max-width:650px){
+    .baner-img{
+        display: none;
+    }
+
+    .baner-text{
+        width: 80%;
+    }
+
+    .baner-text h1 {
+        font-size: 2.8rem;
+        padding-top: 2.5rem;
+    }
+
+    .services{
+        font-size: 5.5rem;
+        letter-spacing: 2px;
+    }
+
+    .quality-sec-wraper{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .grey-bk-color{
+        height:     1100px ;
+    }
+
+    .quality-sec-img{
+        width: 100%;
+    }
+
+    .quality-sec-text{
+        width: 100%;
+        padding-top: 8rem;
+        padding-bottom: 2rem;
+    }
+
+    .quality-sec-text p{
+        font-size: 1.2rem;
+        padding-top: 2rem;
+    }
+
+    .red-line{
+        width: 95%;
+    }
+
+    .service-list{
+        flex-direction: column;
+    }
+
+    .gal-coll-one, .gal-coll-two{
+        flex-direction: column;
+    }
+
+    .gal-img{
+        margin-bottom: 2rem;
+    }
+    
+    .gal-coll-one{
+        margin-bottom: 0;
+    }
+
+    .gal-img{
+        height: 350px;
+    }
+}
+
+@media (max-width:585px){
+
+    .baner{
+        background-position: 70% 30%;
+        padding-left: 0;
+    }
+
+    .baner-text{
+        width: 100%;
+    }
+
+    .white-line{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .baner-text h1 {
+        font-size: 2rem;
+    }
+
+    .services{
+        font-size: 4rem;
+        letter-spacing: 2px;
+    }
+
+    .help-you{
+        display: block;
+    }
+
+    .service-section{
+        padding-top: 5rem;
+        padding-bottom:5rem ;
+    }
+
+    .service-section h6{
+        font-size: 1.2rem;
+    }
+    
+    .service-section h5{
+        padding-top: 1.5rem;
+    }
+
+    .service-section p{
+        padding-top: 1rem;
+    }
+
+    .left-text, .right-text{
+        padding-left: .8rem;
+    }
+
+    .about-text p {
+        font-size: 4rem;
+    }
+
+    .container{
+        margin-right: 0;
+        padding: 1.5rem;
+        
+    }
+
+    .gal-img{
+        margin-left: 0;
+    }
+
+    h1{
+        letter-spacing: 2px;
+    }
+
+    .service-section p{
+        width: 80%;
+    }
+
+    .quality-sec-wraper{
+        padding-left: 3rem;
+    }
+
+    .to-do{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+    .call-us-btn{
+        display: block;
+        margin: 0;
+        margin-top: 2rem;
+    }
+
+    .to-do-btn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right-text h5 {
+        font-size: 2rem;
+    }
+
+    .phon-num{
+        font-size: 1.5rem;
+    }
+
+    .about-text {
+        padding-left: 2rem;
+    }
+    
+}
+
+@media (max-width:440px){
+    .baner-text h1 {
+        font-size: 1.8rem;
+    }
+
+    .services{
+        font-size: 3rem;
+        letter-spacing: 2px;
+    }
+
+    .grey-bk-color{
+        height:     1000px ;
+    }
+
+    
+
+    .to-do h6{
+        font-size: 1.8rem;
+    }
+    
+    .to-do p{
+        font-size: 1.2rem;
+    }
+
+    
+}
+
